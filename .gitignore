@@ -19,8 +19,11 @@
 !*.h
 !*.cs
 !*.md
+!*.json
+!*.py
 !Resources/**
 !Content/**
+!Tools/**
 
 # ---- 不递归扫描 / 不入库的目录（黑名单兜底，防 git 反复遍历、保持整洁）----
 .vs/
@@ -32,3 +35,4 @@ Saved/
 DerivedDataCache/
 Build/
 StagedBuilds/
+__pycache__/

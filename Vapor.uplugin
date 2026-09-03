@@ -30,5 +30,11 @@
 			"LoadingPhase": "Default"
 		}
 	],
-	"EnabledByDefault": true
+	"EnabledByDefault": true,
+	"LocalizationTargets": [
+		{
+			"Name": "Vapor",
+			"LoadingPolicy": "Editor"
+		}
+	]
 }
