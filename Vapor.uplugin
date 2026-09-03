@@ -30,5 +30,5 @@
 			"LoadingPhase": "Default"
 		}
 	],
-	"EnabledByDefault": false
+	"EnabledByDefault": true
 }
