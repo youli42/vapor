@@ -99,7 +99,7 @@ void FVaporExtension::BeginRenderViewFamily(FSceneViewFamily& ViewFamily) {
 
 void FVaporExtension::PrePostProcessPass_RenderThread(FRDGBuilder& GraphBuilder, const FSceneView& InView, const FPostProcessingInputs& Inputs) {
 	/* Check if our extension is toggled ON */
-	// if (CVarShaderOn.GetValueOnRenderThread() == 0) return;
+	if (CVarShaderOn.GetValueOnRenderThread() == 0) return;
 
 	/* Get the global shader map from our scene view */
 	FGlobalShaderMap* GlobalShaderMap = GetGlobalShaderMap(InView.Family->GetFeatureLevel());
