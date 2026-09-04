@@ -20,7 +20,7 @@
   { "ns": "UObjectDisplayNames", "key": "VaporCloud:DensityField", "src": "Density Field", "file": "Source\\Vapor\\Public\\VaporCloud.h", "line": 14 },
   { "ns": "UObjectDisplayNames", "key": "VaporCloud:SignedDistanceField", "src": "Signed Distance Field", "file": "Source\\Vapor\\Public\\VaporCloud.h", "line": 18 },
   { "ns": "UObjectToolTips", "key": "VaporComponent:ProfileWidth", "src": "Width of the dimensional profile.", "file": "Source\\Vapor\\Public\\VaporComponent.h", "line": 33 },
-  { "ns": "UObjectToolTips", "key": "VaporComponent:NoiseFrequency", "src": "Frequency of the noise applied to the cloud.", "file": "Source\\Vapor\\Public\\VaporComponent.h", "line": 36 },
+  { "ns": "UObjectToolTips", "key": "VaporComponent:NoiseFrequency", "src": "Frequency of the noise applied to the cloud, in mHz.", "file": "Source\\Vapor\\Public\\VaporComponent.h", "line": 36 },
   { "ns": "UObjectCategory", "key": "Cloud Volume", "src": "Cloud Volume", "file": "Source\\Vapor\\Public\\VaporComponent.h", "line": 21 },
   { "ns": "UObjectCategory", "key": "Cloud Lighting", "src": "Cloud Lighting", "file": "Source\\Vapor\\Public\\VaporComponent.h", "line": 43 },
   { "ns": "UObjectCategory", "key": "Cloud Quality", "src": "Cloud Quality", "file": "Source\\Vapor\\Public\\VaporComponent.h", "line": 55 },

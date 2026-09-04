@@ -37,6 +37,6 @@ void UVaporComponent::IntoRenderData(FCloudscapeRenderData& RenderData) const {
 	RenderData.AmbientScattering = AmbientScattering;
 	RenderData.SecondaryStep = SecondaryStep;
 	RenderData.SecondaryExtinctThreshold = CalcPathDensityThreshold(SecondaryExtinctThreshold / 100.0f, RenderData.Absorption);
-	RenderData.NoiseFreq = NoiseFrequency;
+	RenderData.NoiseFreq = NoiseFrequency * 0.001f; // mHz -> Hz (0.1 mHz == 0.0001 Hz)
 	RenderData.WindSpeed = WindSpeed;
 }

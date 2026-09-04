@@ -33,8 +33,8 @@ class UVaporComponent : public UPrimitiveComponent {
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cloud Volume", meta = (Units = "Meters", ToolTip = "Width of the dimensional profile."))
 	float ProfileWidth = 160.0f; // m
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cloud Volume", meta = (Units = "Hertz", ToolTip = "Frequency of the noise applied to the cloud."))
-	float NoiseFrequency = 0.0001f; // hz
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cloud Volume", meta = (ToolTip = "Frequency of the noise applied to the cloud, in mHz."))
+	float NoiseFrequency = 0.1f; // mHz (0.1 mHz == 0.0001 Hz)
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cloud Volume", meta = (Units = "MetersPerSecondSquared"))
 	FVector3f WindSpeed = FVector3f(0.0f, 0.0f, 4.0f); // m/s2
 

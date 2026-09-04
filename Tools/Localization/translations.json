@@ -20,7 +20,7 @@
   "UObjectDisplayNames|VaporCloud:DensityField": "密度场",
   "UObjectDisplayNames|VaporCloud:SignedDistanceField": "有符号距离场",
   "UObjectToolTips|VaporComponent:ProfileWidth": "维度剖面的宽度。",
-  "UObjectToolTips|VaporComponent:NoiseFrequency": "应用到云上的噪声频率。",
+  "UObjectToolTips|VaporComponent:NoiseFrequency": "应用到云上的噪声频率（单位：mHz）。",
   "UObjectCategory|Cloud Volume": "云体积",
   "UObjectCategory|Cloud Lighting": "云光照",
   "UObjectCategory|Cloud Quality": "云质量",
